@@ -20,6 +20,7 @@ import StarsCanvas from "../canvas/Star";
 
 import MagicalLoader from "../components/Loader_P/Loader_P";
 import Prizes_n from "../components/prizesnav/prizesmain/prize";
+import Winners from "../components/Winners/Winners"
 import Sponsers from "../components/sponsernav/main/main";
  
 import BgStatic from "../components/Background/bgstatic";
@@ -81,6 +82,7 @@ function Home() {
               <Explore />
             
             <Prizes_n />
+            <Winners />
             <Challenges/>
             <SpeakersNew />
             <Organisors/>
